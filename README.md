@@ -60,18 +60,13 @@ The model consists of:
 - **Edge AI Deployment**: Run CNN on ESP32 with **TensorFlow Lite** for real-time processing.
 - **Cloud Integration**: Send real-time ambulance detections to cloud servers for traffic control.
 
----
-
-## **Project Contributors**
-- **[Your Name]** - AI Model Development & Training
-- **[Other Team Members]** - Embedded System Design & Signal Processing
 
 ---
 
 ## **How to Run the Project**
-1. **Train the model** using `train_model.py`
-2. **Deploy to ESP8266** using `arduino_code.ino`
-3. **Test with real-world audio samples** or use `test_audio.py`
+1. **Train the model** using `modelTrain.py`
+2. **Deploy to ESP8266** using `sketch_dec13a.ino`
+3. **Test with real-world audio samples** or use `SirenDirectionDetection.py`
 
 
 ---
