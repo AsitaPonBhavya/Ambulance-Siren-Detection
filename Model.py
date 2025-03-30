@@ -238,7 +238,7 @@ def predict_audio(model, file_path, use_mel=True):
 # Example usage
 if __name__ == "__main__":
     # Set the path to your dataset
-    data_dir = "dataset"  # Change this to your dataset path
+    data_dir = "dataset"  
     
     # Train the model
     model, history = train_siren_detector(
@@ -249,7 +249,7 @@ if __name__ == "__main__":
     )
     
     # Example: Make prediction on a new audio file
-    test_file = "dataset/ambulance/mixed_sound_8.wav"  # Change this to your test file
+    test_file = "dataset/ambulance/mixed_sound_8.wav" 
     if os.path.exists(test_file):
         result = predict_audio(model, test_file, use_mel=True)
         print(f"Prediction: {result['predicted_class']} with {result['confidence']*100:.2f}% confidence")
